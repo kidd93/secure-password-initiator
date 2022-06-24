@@ -13,3 +13,9 @@ A password generator that helps create random passwords.
 * Moved generator button with add event listener under the generate button variable.
 * Created and inserted selectors to the generate password function and the for loop.
 * Created if/else statements for each variable with in the password choice function.
+
+# URL link to password generator
+* http://127.0.0.1:5501/Develop/index.html
+
+# Screenshot
+![alt text](Develop/2022-06-24.png)
