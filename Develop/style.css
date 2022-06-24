@@ -1,9 +1,11 @@
+/*#Region universal selector*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
+/*#endRegion universal selector*/
+/*#region html, body, wrapper*/
 html,
 body,
 .wrapper {
@@ -22,14 +24,16 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/*#endRegion html, body, wrapper*/
+/*#Region header*/
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/*#endRegion header*/
+/*#Region card section*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -71,7 +75,8 @@ header {
   display: block;
   clear: both;
 }
-
+/*#endRegion card section*/
+/*#Region button section*/
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -92,7 +97,8 @@ button[disabled] {
   cursor: default;
   background: #c0c7cf;
 }
-
+/*#endRegion*/
+/*#Region float and password*/
 .float-right {
   float: right;
 }
@@ -117,7 +123,8 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/*#endRegion float and password*/
+/*#Region media queries*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -135,3 +142,4 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+/*#endRegion media queries*/
