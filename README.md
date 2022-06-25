@@ -12,7 +12,7 @@ A password generator that helps create random passwords.
 * Added const variables with strings for lowercase, uppercase, characters, and numbers.
 * Created and inserted selectors to the generate password function and the for loop.
 * Created let variable and if statements for each const variable with in the handleClick function.
-* Condensed and simplified code for better understanding and to avoid personal confusion.
+* Condensed/simplified code for better understanding and to avoid personal confusion.
 * Removed files from the "develop" folder. Deleted unnecessary files and deleted the the empty develop folder.
 
 
