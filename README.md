@@ -9,13 +9,15 @@ A password generator that helps create random passwords.
 * Javascript
 
 # Changes/Additions made to Starter Code.
-* Added variables with arrays for lowercase, uppercase, characters, and numbers.
-* Moved generator button with add event listener under the generate button variable.
+* Added const variables with strings for lowercase, uppercase, characters, and numbers.
 * Created and inserted selectors to the generate password function and the for loop.
-* Created if/else statements for each variable with in the password choice function.
+* Created let variable and if statements for each const variable with in the handleClick function.
+* Condensed and simplified code for better understanding and to avoid personal confusion.
+* Removed files from the "develop" folder. Deleted unnecessary files and deleted the the empty develop folder.
+
 
 # URL link to password generator
-* http://127.0.0.1:5501/Develop/index.html
+* http://127.0.0.1:5501/index.html
 
 # Screenshot
-![alt text](Develop/2022-06-24.png)
+![alt text](2022-06-24.png)
